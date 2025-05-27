@@ -8,7 +8,9 @@ Here is the generated Video (~ 20 mintues after)
 
 https://github.com/user-attachments/assets/efe064f8-aa6e-4c01-be10-b5a88529ae1b
 
-For ease of use, I was thinking of making it in a Gemini surported library, and the video could be generated in less than 9 lines of code. Several abstractions makes this possible, which involved several Abstract Syntax Tree code validation, caching, etc.
+Currently this is not complete and it is only a proof of concept - several errors still occurs like overlapping text and animations, out of Frame issues.
+
+For ease of use, I was thinking of making it in a Gemini surported library, and the video + Speech could be generated in less than 9 lines of code. Several abstractions makes this possible, which involved several Abstract Syntax Tree code validation, caching, etc.
 
 ```python
 from google import ExplainGenerator # Or a more suitable top-level class name
