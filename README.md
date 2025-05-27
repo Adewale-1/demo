@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/efe064f8-aa6e-4c01-be10-b5a88529ae1b
 Note: No Voice added yet
 
 ## Current Status and Goal
-This is a proof of concept with known issues (text overlapping, animation conflicts, frame positioning). The goal is creating a Gemini-compatible library that generates educational videos in under 9 lines of code using AST validation, caching, and abstraction layers.
+This is a proof of concept with known issues (text overlapping, animation conflicts, frame positioning). The goal is creating a Gemini-compatible library that generates educational videos in under 9 lines of code using AST(Abstract Syntax Tree) validation, caching, and abstraction layers.
 
 ```python
 from google import ExplainGenerator # Or a more suitable top-level class name
